@@ -1,7 +1,7 @@
 {
   "name": "@rbxts/rbx-gc-tracker",
   "version": "1.0.0",
-  "description": "GC tracker for Luau that provides more predicatable (compared to `__gc`...) destructor invocation for dead objects. Supports ~constant time update cost by limiting the iteration count such that update can be called every frame with a small n for negligible performance cost.",
+  "description": "GC tracker for Luau that provides more predictable (compared to `__gc`...) destructor invocation for dead objects. Supports ~constant time update cost by limiting the iteration count such that update can be called every frame with a small n for negligible performance cost.",
   "main": "out/init.lua",
   "scripts": {
     "build": "rbxtsc",
